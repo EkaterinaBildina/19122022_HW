@@ -18,5 +18,5 @@ if (number < 100 || number > 999)
 }
 else 
 {
-Console.WriteLine($"Результат из {number} -> {secondDigit}");
+Console.WriteLine($"Вторая цифра числа {number} -> {secondDigit}");
 }
