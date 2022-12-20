@@ -19,9 +19,6 @@ else
     while (count > 999)
     {
         count = count / 10;
-
-        if (count > 100 && count < 1000)
-            break;
     }
 int result = count % 10;
 Console.WriteLine($"третья цифра числа {number} -> {result}");
